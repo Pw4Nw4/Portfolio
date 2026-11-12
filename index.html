@@ -129,7 +129,7 @@
         <ul class="hero__stats" data-hero style="--hd:1.15s">
           <li class="stat"><b data-count="5" data-suffix="+">5+</b><span>years hands-on with AI and technology</span></li>
           <li class="stat"><b data-count="4">4</b><span>practices working as one plan</span></li>
-          <li class="stat"><b data-count="1">1</b><span>AI product live and shipping</span></li>
+          <li class="stat"><b data-count="1">1</b><span>accountable partner, start to finish</span></li>
           <li class="stat"><b data-count="3">3</b><span>languages: English, French, Kreyòl</span></li>
         </ul>
       </div>
@@ -367,11 +367,11 @@
         <header class="sec__head">
           <p class="eyebrow" data-reveal>What I'm building</p>
           <h2 class="h2" data-reveal>I advise. <em>I also build.</em></h2>
-          <p class="sec__sub" data-reveal>A company, a product studio and a live AI product. Proof that the advice comes from someone who ships.</p>
+          <p class="sec__sub" data-reveal>A company, a product studio and the projects coming out of it. Proof that the advice comes from someone who builds.</p>
         </header>
 
         <div class="build-grid" data-stagger>
-          <a class="proj" href="https://www.f09tech.com" target="_blank" rel="noopener" data-spot>
+          <a class="proj proj--wide proj--viz-first" href="https://www.f09tech.com" target="_blank" rel="noopener" data-spot>
             <div class="proj__viz">
               <div class="orbit" aria-hidden="true">
                 <div class="orbit__ring orbit__ring--outer"></div>
@@ -392,32 +392,6 @@
             </div>
           </a>
 
-          <a class="proj" href="https://goalorithm.ai" target="_blank" rel="noopener" data-spot>
-            <div class="proj__viz proj__viz--chart">
-              <svg class="chart" viewBox="0 0 400 250" preserveAspectRatio="none" aria-hidden="true">
-                <defs>
-                  <linearGradient id="g-cone" x1="0" x2="1"><stop offset="0" stop-color="#ffa24a" stop-opacity=".34"/><stop offset="1" stop-color="#ffa24a" stop-opacity="0"/></linearGradient>
-                  <linearGradient id="g-area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6f79ff" stop-opacity=".38"/><stop offset="1" stop-color="#6f79ff" stop-opacity="0"/></linearGradient>
-                </defs>
-                <g class="chart__grid"><path d="M0 50h400M0 100h400M0 150h400M0 200h400"/></g>
-                <path class="chart__area" d="M0 190C40 176 70 204 110 166S170 120 205 132 245 96 262 98V250H0Z" fill="url(#g-area)"/>
-                <path class="chart__cone" d="M262 98 400 10V104Z" fill="url(#g-cone)"/>
-                <path class="chart__line" pathLength="1" d="M0 190C40 176 70 204 110 166S170 120 205 132 245 96 262 98"/>
-                <path class="chart__pred" d="M262 98C300 80 340 66 400 48"/>
-                <path class="chart__now" d="M262 0V250"/>
-              </svg>
-              <span class="chart__ping" aria-hidden="true"></span>
-              <span class="chip chip--l" aria-hidden="true">Match data</span>
-              <span class="chip chip--r" aria-hidden="true">Prediction</span>
-            </div>
-            <div class="proj__body">
-              <p class="proj__kicker"><span class="live"><span class="pulse" aria-hidden="true"></span>Live</span> The product</p>
-              <h3>Goalorithm</h3>
-              <p>An AI sports analytics and match-prediction engine that turns raw sports data into decisions for athletes, coaches and analysts. Built by our team at F09&nbsp;Tech Labs.</p>
-              <span class="proj__link">goalorithm.ai <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
-            </div>
-          </a>
-
           <a class="proj proj--wide" href="https://www.f09tech.com/labs" target="_blank" rel="noopener" data-spot>
             <div class="proj__body">
               <p class="proj__kicker">The studio · R&amp;D</p>
@@ -434,6 +408,98 @@
               </ol>
             </div>
           </a>
+        </div>
+
+        <!-- Projects. Status labels: "live" has a public address; "dev" is still being built; "internal" runs inside F09 Tech. -->
+        <div class="works">
+          <header class="works__head">
+            <h3 class="works__title" data-reveal>Projects I've built</h3>
+            <p class="works__note" data-reveal>Three are live and open to try. The rest are in active development or run inside F09&nbsp;Tech.</p>
+          </header>
+
+          <ul class="works__grid" data-stagger>
+            <li>
+              <a class="pcard"href="https://savannah-bi.f09tech.com" target="_blank" rel="noopener" data-spot>
+                <div class="pcard__top">
+                  <span class="pcard__status pcard__status--live"><span class="pulse" aria-hidden="true"></span>Live</span>
+                  <svg class="i pcard__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+                </div>
+                <h4>Savannah Business Intelligence</h4>
+                <p>Turns a business idea into a startup plan and a local market report, built on public Savannah business records, with an AI assistant that keeps facts and explanation apart.</p>
+                <ul class="tags"><li>Next.js</li><li>PostgreSQL</li><li>AI research</li></ul>
+              </a>
+            </li>
+            <li>
+              <a class="pcard"href="https://savannahweather.f09tech.com" target="_blank" rel="noopener" data-spot>
+                <div class="pcard__top">
+                  <span class="pcard__status pcard__status--live"><span class="pulse" aria-hidden="true"></span>Live</span>
+                  <svg class="i pcard__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+                </div>
+                <h4>Savannah Weather</h4>
+                <p>A weather app for Savannah built on official National Weather Service and NOAA data. Plain answers about rain and the day ahead, plus tides, flood risk on the road to Tybee and official alerts.</p>
+                <ul class="tags"><li>Web app</li><li>FastAPI</li><li>NOAA data</li></ul>
+              </a>
+            </li>
+            <li>
+              <a class="pcard"href="https://www.f09tech.com/tools" target="_blank" rel="noopener" data-spot>
+                <div class="pcard__top">
+                  <span class="pcard__status pcard__status--live"><span class="pulse" aria-hidden="true"></span>Live</span>
+                  <svg class="i pcard__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+                </div>
+                <h4>F09 Free Tools</h4>
+                <p>Free tools for small businesses that run in your browser: an invoice generator, an email security checker, a password generator and an email signature builder. No sign-up, nothing stored.</p>
+                <ul class="tags"><li>Astro</li><li>TypeScript</li><li>Privacy first</li></ul>
+              </a>
+            </li>
+            <li>
+              <article class="pcard"data-spot>
+                <div class="pcard__top"><span class="pcard__status pcard__status--dev">In development</span></div>
+                <h4>F09 Relay</h4>
+                <p>A calling workspace where your team and an AI caller work the same contact list from the same approved answers. The AI says it's an AI, honors opt-outs and hands off to a person on request.</p>
+                <ul class="tags"><li>Next.js</li><li>Twilio</li><li>AI voice</li></ul>
+              </article>
+            </li>
+            <li>
+              <article class="pcard"data-spot>
+                <div class="pcard__top"><span class="pcard__status pcard__status--dev">In development</span></div>
+                <h4>F09 Core</h4>
+                <p>One business system for customers, sales and invoicing, with AI agents that act only inside approved permissions and with a person signing off.</p>
+                <ul class="tags"><li>Next.js</li><li>NestJS</li><li>Workflows</li></ul>
+              </article>
+            </li>
+            <li>
+              <article class="pcard"data-spot>
+                <div class="pcard__top"><span class="pcard__status pcard__status--dev">In development</span></div>
+                <h4>AyitiCo Marketplace</h4>
+                <p>An online marketplace for Haiti. Local sellers list everyday goods, and buyers in Haiti or abroad order for delivery or pickup, in English, French and Haitian Creole.</p>
+                <ul class="tags"><li>Next.js</li><li>Supabase</li><li>Stripe</li></ul>
+              </article>
+            </li>
+            <li>
+              <article class="pcard"data-spot>
+                <div class="pcard__top"><span class="pcard__status pcard__status--dev">In development</span></div>
+                <h4>Sumaude</h4>
+                <p>A study planner for college students. It turns their syllabi into one semester plan of courses, deadlines and grades, with an AI tutor that works from their own course material.</p>
+                <ul class="tags"><li>Next.js</li><li>Supabase</li><li>AI tutor</li></ul>
+              </article>
+            </li>
+            <li>
+              <article class="pcard"data-spot>
+                <div class="pcard__top"><span class="pcard__status pcard__status--internal">Internal tool</span></div>
+                <h4>F09 Sentinel</h4>
+                <p>The security assessment tool I use on authorized engagements. It checks a network for exposed services and known vulnerabilities, flags the ones being actively exploited and drafts the findings report.</p>
+                <ul class="tags"><li>Python</li><li>Vulnerability scanning</li><li>AI reporting</li></ul>
+              </article>
+            </li>
+            <li>
+              <article class="pcard"data-spot>
+                <div class="pcard__top"><span class="pcard__status pcard__status--internal">Infrastructure</span></div>
+                <h4>The F09 Platform</h4>
+                <p>The self-hosted platform F09&nbsp;Tech runs on: private servers hosting our business tools, databases, automation and a local AI server, behind single sign-on with multi-factor login.</p>
+                <ul class="tags"><li>Self-hosted</li><li>Single sign-on</li><li>Local AI</li></ul>
+              </article>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
