@@ -1,0 +1,7 @@
+# Local preview settings for the Claude desktop app
+.claude/
+
+# OS clutter
+Thumbs.db
+desktop.ini
+.DS_Store
