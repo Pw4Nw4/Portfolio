@@ -1,0 +1,36 @@
+# Rock Frederic
+
+> Rock Frederic is the founder and CEO of F09 Tech, a business technology, automation and AI company in Savannah, Georgia, and works as an AI Strategy Consultant. He helps small and mid-sized businesses improve how they operate, starting with people and process and then bringing in AI, automation, cloud and cybersecurity. He is completing an MBA at Georgia Southern University (December 2026) and holds a B.S. from the same university. He speaks English, French and Haitian Creole.
+
+## About
+
+- [Portfolio home](https://rockfrederic.com/): one-page portfolio with his story, services, approach, projects and contact details
+- [F09 Tech](https://www.f09tech.com): the company he founded in 2025, serving Savannah, Pooler, Richmond Hill, Hinesville and Statesboro, and working remotely beyond Coastal Georgia
+- [F09 Tech Labs](https://www.f09tech.com/labs): the company's product studio
+
+## What he does
+
+- Business improvement: mapping how work really moves through a business and simplifying it before adding tools
+- AI and automation: AI strategy and workflow automation, with a person approving anything outside the rules
+- IT and cloud: AWS, Azure and Google Cloud, Active Directory, networking
+- Cybersecurity: vulnerability assessment, penetration testing, identity and access management
+
+## Live projects
+
+- [Savannah Business Intelligence](https://savannah-bi.f09tech.com): turns a business idea into a startup plan and local market report, using public Savannah business records
+- [Savannah Weather](https://savannahweather.f09tech.com): Savannah weather built on official National Weather Service and NOAA data
+- [F09 Free Tools](https://www.f09tech.com/tools): free browser-based tools for small businesses (invoice generator, email security checker, password generator, email signature builder)
+
+## Projects in development
+
+- F09 Relay: a calling workspace where a team and an AI caller share one contact list and approved answers
+- F09 Core: a business system for customers, sales and invoicing with permissioned AI agents
+- AyitiCo Marketplace: an online marketplace for Haiti in English, French and Haitian Creole
+- Sumaude: a study planner for college students
+
+## Contact
+
+- Email: info@f09tech.com
+- Phone: (912) 933-7982
+- [Start a free assessment](https://www.f09tech.com/assessment)
+- [LinkedIn (F09 Tech)](https://www.linkedin.com/company/f09-tech)

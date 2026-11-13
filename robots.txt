@@ -1,0 +1,5 @@
+# Rock Frederic's portfolio. Everything is public and open to all crawlers.
+User-agent: *
+Allow: /
+
+Sitemap: https://rockfrederic.com/sitemap.xml
